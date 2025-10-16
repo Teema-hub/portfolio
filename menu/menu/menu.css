@@ -1,0 +1,140 @@
+@font-face {
+    font-family: 'Tanha';
+    src: url('fonts/collection-persian-web-font/tanha-font-v0.9/Tanha.eot');
+    src: url('fonts/collection-persian-web-font/tanha-font-v0.9/Tanha.eot?#iefix') format('FontName-opentype'),
+         url('fonts/collection-persian-web-font/tanha-font-v0.9/Tanha.woff') format('woff'),
+         url('fonts/collection-persian-web-font/tanha-font-v0.9/Tanha.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  body{
+    background: linear-gradient(to bottom, #F3EDE4, #E0D8CE);
+    background-color: #F3EDE4; */
+     position: relative; 
+    font-family: 'tanha', sans-serif;
+  }
+   body::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+     background-image: url("images/cardboard.png");  
+     opacity: 0.1; 
+    pointer-events: none;
+   } 
+   
+   
+
+  .headrtitle {
+    color: rgb(112, 64, 64);
+  }
+  .category-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 200px;
+    height: 90px;
+    background:   whitesmoke;
+    border-radius: 50px;
+    padding: 10px 15px;
+    gap: 12px;
+    /* box-shadow: 0 2px 8px rgba(255, 255, 255, 0.05); */
+    cursor: pointer;
+    transition: 0.2s;
+    border: none;
+    outline: none;
+    text-decoration: none;
+  }
+  
+  .category-item img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: white;
+    object-fit: cover;
+    flex-shrink: 0;
+    
+  }
+  
+  .category-item span {
+    font-size: 16px;
+     color: #333; 
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* flex: 1; */
+     font-weight: bold; 
+    font-family: 'Tanha',sans-serif;
+}
+  
+  .category-item:hover {
+    background-color:rgb(173, 126, 102);
+    transform: translateY(-2px);
+  }
+  .offerbox{
+    font-family: 'Tanha',sans-serif;
+    text-shadow: 4px 4px 10px rgba(0,0,0,0.6);
+    color:  rgb(112, 64, 64);
+  
+  }
+  .menu-card{
+    position: relative;
+     background: rgba(211, 210, 210, 0.3);
+    
+     backdrop-filter: blur(5px);  
+    border-radius: 25px;
+    padding: 60px 20px 20px;
+    text-align: center;
+     transition: transform 0.3s ease-in-out box-shadow 0.3s ease-in-out, boxshadow 0.3s ease-in-out; 
+    margin-top: 50px;
+     width: 100%;  
+     height: 400px; 
+    max-width: 350px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    
+  
+  }
+  /* .center{
+    transform: translateY(-15px);
+  } */
+  .menu-card img{
+    /* width: 280px;
+   height: 280px;   */
+  border-radius: 50%;
+  position: absolute;
+  object-fit: cover;
+   top: -10%;
+  left: 0;
+  transform: translateY(-50px);
+ 
+    
+  /* box-shadow: 0 10PX 20px rgba(16, 15, 15, 0.5); */
+ 
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+
+
+
+}
+.card-content{
+  padding-top: 40px;
+  margin-top: 150px;
+  text-align: left;
+}
+.fasele{
+  padding-top: 15vh;
+}
+.menu-card:hover{
+  transform: translateY(-10px) scale(1.1);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+
+}
+.card-content svg{
+  color: rgb(112, 64, 64);
+  
+  position: relative;
+  align-items: end;
+}
+  

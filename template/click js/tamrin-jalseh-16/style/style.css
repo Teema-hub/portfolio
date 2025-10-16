@@ -1,0 +1,22 @@
+.story-item {
+    text-align: center;
+    margin: 10px;
+}
+
+.story-item img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid purple;
+}
+
+.story-text {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.story-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}

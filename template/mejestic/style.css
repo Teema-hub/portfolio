@@ -1,0 +1,75 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color:#F9FAFD; 
+}
+.main{
+    
+}
+.picback{
+    background-image:url("img/gallery/header-bg.png") ;
+    background-size: cover;
+      filter: opacity(30%); 
+     
+    position: absolute;
+    background-repeat: no-repeat;
+     height: auto;
+     
+     
+    
+}
+.op{
+    filter: opacity(100%);
+}
+.logo{
+    width: 34px;
+    height: 23px;
+}
+.logo img{
+    margin-left: 12px;
+}
+
+.bg{
+    /* background-color:#F9FAFD; */
+    /* opacity: 0.8; */
+    /* z-index: 10; */
+}
+li{
+    color: black;
+   
+    
+}
+.icn svg{
+    margin:  0px 10px;
+
+}
+.deals{
+    background-color:#F9FAFD; 
+    
+}
+.docme a{
+    border-radius: 0px;
+    text-align: center;
+    font-family: "Jost", "Open Sans", "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";;
+}
+.docme2 a{
+    border-radius: 0px;
+}
+.docme2{
+    padding-top: 20vh;
+}
+.outfit img {
+     width: 552px;
+    height: 519.183px; 
+
+}
+.bg2{
+    background-color:#EEEEEE;
+}
+.cardsss img{
+    width:279px;
+    height: 543.283px;
+}
+.txt{
+    padding-top: 60vh;
+}

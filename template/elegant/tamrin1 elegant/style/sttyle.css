@@ -1,0 +1,420 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background: #081e30 url(../images/tooplate_body.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    display: block;
+}
+.main-page{
+    position: relative;
+    width: 960px;
+    padding: 0px 10px;
+    margin: 0px auto;
+    font-family: tahoma;
+    font-size: 14px;
+}
+.header{
+    position: relative;
+    float: left;
+    width: 960px;
+    height: 95px;
+}
+.title-div{
+    position: relative;
+    float: left;
+    background-image: url(../images/tooplate_logo.png);
+    width: 201px;
+    height: 42px;
+    margin-left: 220px;
+    margin-top: 25px;
+    background-position:center center;
+    background-repeat: no-repeat;
+}
+.menu-list{
+    position: relative;
+    float: left;
+    width: 960px;
+    height: 55px;
+    margin: 0px;
+    padding: 0px;
+    clear: both;
+    background-image: url(../images/tooplate_menu.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+.menu-list ul{
+    color: black;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.menu-list li{
+    width: 115px;
+    font-weight: bold;
+    display: inline-block; 
+}
+.menu-list a{
+    text-decoration: none;
+    box-sizing: border-box;
+    padding-left: 30px;
+    margin-left: 10px;
+    color: black;
+}
+.menu-list a:hover ,.active{
+    background-image: url(../images/tooplate_menu_hover.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 55px;
+    width: 115px;
+    display: inline-block;
+    line-height: 50px;
+}
+.navigation{
+    position: relative;
+    float: left;
+    clear: both;
+    width: 960px;
+    min-height: 560px;
+    background: #081e30 url(../images/tooplate_main.jpg);
+    background-repeat: no-repeat;
+    margin: 0px;
+}
+.nav-group{
+    position: relative;
+    float: left;
+    width: 600;
+    min-height: 1350px;
+}
+.navigation .nav-group .content-div{
+    position: relative;
+    float: left;
+    width: 580px;
+    margin: 20px;
+    height: 300px;
+    background-repeat: no-repeat;
+    border: #081e30 solid 10px;
+    border-bottom: none;
+    background-image: url(../images/slideshow/01.jpg);
+}
+.nav-group .day-div{
+    position: relative;
+    float: left;
+    margin-left: 20px;
+    width: 120px;
+    height: 120px;
+    background-image: url(../images/tooplate_date.png);
+    background-repeat: no-repeat;
+}
+.nav-group .day-div li{
+    list-style: none;
+    line-height: 32px;
+    font-weight: bold;
+    color: black;
+    margin-left: -25px;
+}
+.nav-group .day-div li:nth-child(1){
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    clear: both;
+    margin-left: -50px;
+}
+.nav-group .day-div li:nth-child(2){
+    color: white;
+    text-align: center;
+    font-size: 13px;
+    margin-left: -50px;
+}
+.nav-group .web-text{
+    position: relative;
+    float: left;
+    color: aliceblue;
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: -15px;
+}
+.nav-group .side-bar{
+    clear: both;
+    position: relative;
+    float: left;
+    width: 450px;
+    margin-left: 170px ;
+    margin-top: -80px;
+    height: 30px;
+    padding-top: 5px;
+    padding-left: 8px;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-color: #051523;
+}
+.nav-group .side-bar {
+    color: rgb(38, 172, 255) ;
+    font-size: 12px;
+}
+.nav-group .side-bar a{
+    color: rgb(38, 172, 255) ;
+    font-size: 12px;
+}
+.nav-group .pic2{
+    clear: both;
+    position: relative;
+    float: left;
+    width: 450px;
+    height: 280px;
+    background-repeat: no-repeat;
+    margin-left: 170px;
+    margin-top: -25px;
+    background-image: url(../images/tooplate_image_01.jpg);
+}
+.nav-group .explain-div{
+    clear: both;
+    position: relative;
+    float: left;
+    width: 460px;
+    color: rgb(124, 202, 250) ;
+    margin-left: 170px;
+    margin-top: -100px;
+    font-size: 13px;
+    line-height: 30px;
+}
+.nav-group .explain-div a{
+    color: rgb(38, 172, 255) ; 
+}
+.nav-group .continue-div{
+    position: relative;
+    float: left;
+    height: 40px;
+    width: 150px;
+    background-repeat: no-repeat;
+    background-image: url(../images/continue.png);
+    left: 450px;
+}
+.nav-group .continue-div a{
+    color: rgb(124, 202, 250) ;
+    text-decoration: none;
+    padding: 15px;
+    list-style: 10px;
+    box-sizing: border-box;
+    font-size: 13px;
+}
+.nav-group .line-div hr{
+    width: 600px;
+    position: relative;
+    float: left;
+    margin-left: 10px; 
+}
+.nav-group .day-div2 ul{
+    position: relative;
+    float: left;
+    background-repeat: no-repeat;
+    width: 120px;
+    height: 120px;
+    list-style: none;
+    margin-left: 25px;
+    line-height: 30px;
+    margin-top: 40px;
+    background-image: url(../images/tooplate_date.png);
+}
+.nav-group .day-div2 li{
+    color: black;
+    font-weight: bold;
+    margin-left: -25px;
+}
+.nav-group .day-div2 li:nth-child(1){
+    font-size: 40px;
+    margin-top: 25px;
+    margin-left: -10px;
+    color: aliceblue;
+}
+.nav-group .day-div2 li:nth-child(2){
+    color: white;
+    font-size: 13px;
+    margin-left: -10px;
+}
+.nav-group .web-text2{
+    position: relative;
+    float: left;
+    color: azure;
+    font-size: 20px;
+    margin-top: 40px;
+}
+.nav-group .link-text{
+    position: relative;
+    float: left;
+    background-color: #051523;
+    width: 415px;
+    height: 30px;
+    margin-top: 25px;
+}
+.nav-group .link-text a{
+    color: rgb(38, 172, 255) ;
+    font-size: 12px;
+}
+.nav-group .pic3{
+    position: relative;
+    float: left;
+    background-repeat: no-repeat;
+    width: 415px;
+    margin-top: 25px;
+    height: 280px;
+    background-image: url(../images/tooplate_image_02.jpg);
+}
+.nav-group .explain-div2{
+    position: relative;
+    float: left;
+    width: 415px;
+    margin-left: 190px;
+    margin-top: -80px;
+    color: rgb(124, 202, 250) ;
+    line-height: 20px;
+    font-size: 13px;
+}
+.nav-group .continue-div2{
+    position: relative;
+    float: left;
+    margin-left: 450px;
+    height: 55px;
+    width: 145px;
+    margin-top: 30px;
+    background-repeat: no-repeat;
+    background-image: url(../images/continue.png);
+}
+.nav-group .continue-div2 a{
+    margin-left: 10px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    color: rgb(124, 202, 250);
+    font-size: 12px;
+    text-decoration: none;
+}
+.footer-div{
+    position: relative;
+    float: left;
+    width: 960px;
+    height: 300px;
+    background-image: url(../images/tooplate_footer.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.footer1{
+    font-size: 17px;
+    display: inline-block;
+    width: 300px;
+    color: white;
+    line-height: 30px;
+    list-style-image: url(../images/tooplate_list.png);
+}
+.footer1 a,.footer2 a,.footer3 p{
+    color:rgb(124, 202, 250);
+}
+.footer2{
+    font-size: 17px;
+    display: inline-block;
+    width: 300px;
+    color: white;
+    line-height: 30px;
+    list-style-image: url(../images/tooplate_list.png);
+}
+.footer3{
+    line-height: 25px;
+    display: inline-block;
+    width: 350px;
+    font-size: 14px;
+}
+.footer3 label{
+    color: aliceblue;
+    font-size: 17px;
+}
+.content-menu{
+    position: relative;
+    float: left;
+    margin-top: 30px;
+    margin-left: 60px;
+    width: 250px;
+    height: 250px;
+    border: #081e30 solid 17px;
+    background-image: url(../images/tooplate_250x250_ad.jpg);
+    background-position: center center;
+}
+.content-menu2{
+    position: relative;
+    float: left;
+    width: 282px;
+    height: 260px;
+    margin-left: 60px;
+    background-color: #081e30;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-left: black solid 1px;
+    border-right: black solid 1px;
+    background-image: url(../images/tooplate_main.jpg);
+    background-position: left bottom;
+    list-style-image: url(../images/tooplate_list.png);
+    line-height: 28px;
+    color: aliceblue;
+    border-top: rgb(71, 146, 208) solid 1px;
+}
+.content-menu2 a{
+    color:rgb(124, 202, 250);
+    text-decoration: none;
+}
+.content-menu2 label{
+    margin-left: 20px;
+    font-size: 19px;
+}
+.content-menu2 li{
+    margin-left: 13px;
+}
+.content-menu3{
+    position: relative;
+    float: left;
+    width: 282px;
+    height: 290px;
+    border-left: black solid 1px;
+    border-right: black solid 1px;
+    margin-left: 60px;
+    font-size: 16px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    color: aliceblue;
+    background-image: url(../images/tooplate_main.jpg);
+    background-position: left bottom;
+    border-top: rgb(71, 146, 208) solid 1px;
+}
+.content-menu3 .pdiv1 a{
+    color: rgb(124, 202, 250);
+    display: block;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 13px;
+}
+.content-menu3 .pdiv1{
+    color: rgb(124, 202, 250);
+    line-height: 20px;
+    margin-left: 20px;
+}
+.content-menu3 .pdiv2 a{
+    color: rgb(62, 161, 223);
+    display: block;
+    margin-top: 25px;
+    font-weight: bold;
+    font-size: 13px;
+}
+.content-menu3 .pdiv2{
+    color: rgb(141, 208, 249);
+    line-height: 20px;
+    margin-left: 20px;
+}
+.content-menu3 .pdiv3{
+    color: rgb(141, 208, 249);
+    line-height: 20px;
+    margin-left: 20px;
+}
+.content-menu3 .pdiv3 a{
+    color: rgb(62, 161, 223);
+    display: block;
+    margin-top: 25px;
+    font-weight: bold;
+    font-size: 13px;
+}

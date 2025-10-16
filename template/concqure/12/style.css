@@ -1,0 +1,74 @@
+@media all and (max-width: 767.99px){
+    .paddingcls{
+        margin: 71px;
+    }
+    .bgthrd{
+        height: 200px;
+    }
+    .formcls{
+        width: 100vh;
+    }
+    .hicls{
+        height: 50px;
+    }
+}
+@media all and (min-width: 768px){
+    .bgthrd{
+        height: 434px;
+    }
+    .formcls{
+        width: 50vh;
+    }
+    .hicls{
+        height: 144px;
+    }
+}
+.bg-secondarycls{
+    background:#383E4C;
+    color: white;
+}
+.backcls{
+    background: url("gallery/bg-1.jpg") center center fixed;
+    background-size: cover;
+    height: 85vh;
+}
+
+/*.fixcls{*/
+/*    position: fixed;*/
+/*    z-index: 2;*/
+/*}*/
+.fontcls{
+    color: #fff;
+    font-size: 70px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px #000;
+}
+.custom-card {
+    border: none; 
+}
+.ptcls{
+    padding-top: 80px;
+}
+.secpic{
+    background: url("gallery/bg-2.jpg") center center fixed;
+    background-size: cover;
+    height: 45vh;
+}
+.fontclssec{
+    font-size: 14px;
+    color: black;
+    text-shadow: none;
+}
+.bgthrd{
+    background: url("gallery/4-5.jpg") center center no-repeat;
+    background-size: cover;
+}
+.fourthpic{
+    background: url("gallery/bg-3.jpg") center center fixed;
+    background-size: cover;
+    height: 90vh;
+}
+.lstbgrnd{
+    background: rgba(242, 242, 242, 0.4) none repeat scroll 0 0;
+}
+

@@ -1,0 +1,16 @@
+.image-gallery {
+    text-align: center;
+}
+
+#largeImage {
+    width: 400px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.thumbnails img {
+    width: 100px;
+    height: auto;
+    margin: 0 5px;
+    cursor: pointer;
+}

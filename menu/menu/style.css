@@ -1,0 +1,263 @@
+@media all and (max-width: 600.99px){
+  .icn{
+    display: none;
+  }
+  .welcome{
+    display: none;
+  }
+  .borderbotton{
+    border-bottom: none !important;
+  }
+  .menubotton {
+    flex-direction: row !important; 
+    justify-content: center !important; 
+    gap: 10px;
+    padding-top: 20px;
+    
+  }
+
+  .menubotton a {
+    width: 45% !important; 
+    height: 36px;
+    font-size: 14px;
+    margin: 0 !important;
+    border-radius: 999px;
+    text-shadow: none;
+    background-color: rgb(170, 127, 106) !important; 
+    }
+    .menu-card{
+      /* margin-top: 20px !important;
+      margin-bottom: 20px !important; */
+    }
+    .about{
+      display: none;
+    }
+  
+}
+
+@font-face {
+    font-family: 'Yekan';
+    src: url('fonts/collection-persian-web-font/yekan-font/Yekan.eot');
+    src: url('fonts/collection-persian-web-font/yekan-font/Yekan.eot?#iefix') format('FontName-opentype'),
+         url('fonts/collection-persian-web-font/yekan-font/Yekan.woff') format('woff'),
+         url('fonts/collection-persian-web-font/yekan-font/Yekan.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Vazir';
+    src: url('fonts/collection-persian-web-font/vazir-font-v18.0.0/Vazir.eot');
+    src: url('fonts/collection-persian-web-font/vazir-font-v18.0.0/Vazir.eot?#iefix') format('FontName-opentype'),
+         url('fonts/collection-persian-web-font/vazir-font-v18.0.0/Vazir.woff') format('woff'),
+         url('fonts/collection-persian-web-font/vazir-font-v18.0.0/Vazir.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Tanha';
+    src: url('fonts/collection-persian-web-font/tanha-font-v0.9/Tanha.eot');
+    src: url('fonts/collection-persian-web-font/tanha-font-v0.9/Tanha.eot?#iefix') format('FontName-opentype'),
+         url('fonts/collection-persian-web-font/tanha-font-v0.9/Tanha.woff') format('woff'),
+         url('fonts/collection-persian-web-font/tanha-font-v0.9/Tanha.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Shabnam';
+    src: url('fonts/collection-persian-web-font/shabnam-font-v2.4.0/Shabnam.eot');
+    src: url('fonts/collection-persian-web-font/shabnam-font-v2.4.0/Shabnam.eot?#iefix') format('FontName-opentype'),
+         url('fonts/collection-persian-web-font/shabnam-font-v2.4.0/Shabnam.woff') format('woff'),
+         url('fonts/collection-persian-web-font/shabnam-font-v2.4.0/Shabnam.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Samim';
+    src: url('fonts/collection-persian-web-font/samim-font-v2.0.1/Samim.eot');
+    src: url('fonts/collection-persian-web-font/samim-font-v2.0.1/Samim.eot?#iefix') format('FontName-opentype'),
+         url('fonts/collection-persian-web-font/samim-font-v2.0.1/Samim.woff') format('woff'),
+         url('fonts/collection-persian-web-font/samim-font-v2.0.1/Samim.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+  body {
+    background: linear-gradient(to bottom, #F3EDE4, #E0D8CE);
+    background-color: #F3EDE4;
+    position: relative;
+    font-family: 'Tanha',sans-serif;
+  }
+  
+  body::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("images/cardboard.png"); 
+    opacity: 0.1; 
+    pointer-events: none;
+  }
+
+  .picbox{
+    position: relative;
+    display: inline-block;
+}
+.picbox::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 120%;
+    height: 120%;
+    background: radial-gradient(circle, rgba(255, 174, 0, 0.3),rgba(0,0,0,0));
+    filter: blur(40px);
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+.textbox{
+    font-family: 'Tanha',sans-serif;
+}
+.textbox2{
+    font-family: 'Tanha',sans-serif;
+}
+.menubotton  a {
+    border-radius: 25px;
+    background-color:rgb(200, 185, 171) ;
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+    display: inline-block;
+    width: 20%;
+    margin:  30px 0 0 80px;
+    font-family: 'Tanha',sans-serif;
+    transition: all 0.4s ease-in-out ;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.9);
+    
+    
+}
+.menubotton a:hover{
+    background-color: rgb(173, 126, 102);
+    text-shadow: 4px 4px 10px rgba(0,0,0,0.6);
+    transform: scale(1.1) rotate(2deg);
+
+}
+.icn svg{
+  margin: 20px 30px;
+  color: rgb(112, 64, 64);
+  
+  
+}
+.welcome h6{
+  letter-spacing: 4px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(75, 40, 5);
+  
+}
+.borderbotton{
+  border-bottom: 2px solid rgb(80, 52, 52);
+  padding-bottom: 10px;
+  margin-top: 20px;
+}
+.offerbox{
+  font-family: 'Tanha',sans-serif;
+  text-shadow: 4px 4px 10px rgba(0,0,0,0.6);
+
+}
+.cheficn svg {
+  fill: rgb(112, 64, 64);
+}
+
+.menu-card{
+  position: relative;
+   background: rgba(211, 210, 210, 0.3);
+  
+   backdrop-filter: blur(5px);  
+  border-radius: 25px;
+  padding: 60px 20px 20px;
+  text-align: center;
+   transition: transform 0.3s ease-in-out box-shadow 0.3s ease-in-out, boxshadow 0.3s ease-in-out; 
+  margin-top: 50px;
+   width: 100%;  
+   height: 400px; 
+  max-width: 350px; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  
+
+}
+
+.center{
+  transform: translateY(-15px);
+}
+
+.menu-card img{
+    /* width: 280px;
+   height: 280px;   */
+  border-radius: 50%;
+  position: absolute;
+  object-fit: cover;
+   top: -10%;
+  left: 0;
+  transform: translateY(-50px);
+ 
+    
+  /* box-shadow: 0 10PX 20px rgba(16, 15, 15, 0.5); */
+ 
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+
+
+
+}
+.card-content{
+  padding-top: 40px;
+  margin-top: 150px;
+  text-align: left;
+}
+.fasele{
+  padding-top: 15vh;
+}
+.menu-card:hover{
+  transform: translateY(-10px) scale(1.1);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+
+}
+.card-content svg{
+  color: rgb(112, 64, 64);
+  
+  position: relative;
+  align-items: end;
+}
+.abouttxt{
+  font-family: 'Tanha',sans-serif;
+  border-bottom: 3px solid black;
+  color: rgb(112, 64, 64);
+  padding-top: 60px;
+
+}
+.abouttxt svg {
+  fill: rgb(112, 64, 64);
+}
+
+.maintxt{
+  font-family: 'Tanha',sans-serif;
+  color: rgb(112, 64, 64);;
+}
+footer{
+  font-family: 'Tanha',sans-serif;
+}
+footer svg{
+  fill: rgb(112, 64, 64);
+}
+.endfooter{
+  background: linear-gradient(to bottom, #F3EDE4, #E0D8CE);
+    background-color: #F3EDE4;
+}
+.custombtn {
+  min-width: 0;
+  white-space: nowrap;
+}
+
+

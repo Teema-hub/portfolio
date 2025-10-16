@@ -1,0 +1,175 @@
+@media all and (max-width: 600.99px){
+    .container{
+        width: 100%;
+    }
+    .d-none{
+        display: none;
+    }
+    .col-12{
+        width: 100%;
+    }
+   
+}
+@media all and (min-width: 601px) and (max-width: 1200.99px){
+    .container{
+        width: 600px;
+    }
+    .d-md-none{
+        display: none;
+    }
+.d-md-block{
+    display: none;
+}
+   .col-md-4{
+    width: 33.33%;
+   }
+   .md-6{
+    width: 50%;
+   }
+   
+}
+
+@media  all and (min-width: 1201px){
+    .container{
+        width: 1200px;
+    }
+    .d-md-none{
+        display: none;
+    }
+    .d-md-block{
+        display: none;
+    }
+    .col-md-4{
+        width: 33.33%;
+       }
+       .md-6{
+        width: 50%;
+       }
+   
+}
+:root{
+    font-size: 14px;
+    --color1:#5C5C5C;
+}
+div,footer,header,section,aside,article,nav{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.row{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    flex-flow: row wrap;
+}
+.container-fluid{
+    width: 100%;
+    flex-flow: row wrap;
+    display: flex;
+}
+.logo{
+    width: 200px;
+    color: var(--color1);
+    padding: 20px 20px;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.navdiv{
+    width: calc(100% - 200px);
+    padding-top: 9px;
+    text-align: right;
+}
+.navdiv button{
+    font-size: 1.5rem ;
+    border-radius: 5px;
+    padding: 6px 10px;
+}
+.navdiv ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+.navdiv li{
+     display: inline-block; 
+} 
+.navdiv a{
+    display: inline-block; 
+    padding: 15px 20px;
+    color: var(--color1);
+    text-decoration: none;
+}
+.navdiv a:hover{
+    color: #000000;
+}
+
+ .picback{
+    background-image: url("image/home-bg.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 88vh;
+
+}
+.alignitemcenter{
+    align-items: center;
+}
+.resturantname{
+    text-align: center;
+    color: azure;
+}
+.resturantname a {
+    display: inline-block;
+    text-decoration: none;
+    color: aliceblue;
+    margin-top: 30px;
+    font-size: 1.2rem;
+    border: 2px solid white;
+    padding: 15px 30px;
+    transition: all 0.5s;
+    font-family: inherit;
+}
+.resturantname a:hover{
+    background-color: white;
+    color: #000000;
+    transition: all 0.5s;
+}
+.gtitle{
+    margin: 10vh;
+    color: #5C5C5C;
+    font-size: 1.4rem;
+    font-weight: bold;
+    border-bottom: 2px solid #5C5C5C;
+    padding-bottom: 8px;
+}
+.card{
+    width: calc(100 - 20px);
+    margin: 5px 10px;
+    
+}
+.card img{
+    width: 100%;
+    padding-top: 35px;
+}
+.card-body{
+    padding-top: 20px;
+}
+.card-footer{
+    padding-top: 10px;
+}
+.bg {
+    background: #ebe9e9;
+}
+.menu{
+    margin: 30px;
+    font-size: 1.5rem;
+}
+.menu2{
+    padding-left: 30px;
+    font-size: 1rem;
+}

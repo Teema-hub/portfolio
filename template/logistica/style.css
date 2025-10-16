@@ -1,0 +1,77 @@
+.picback{
+    background-image: url("images/carousel-1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+    
+}
+.logistica a{
+    background-color: #FF3E41;
+    height: 55px;
+}
+.down{
+    padding-top: 25vh;
+    font-family: "Roboto",sans-serif;
+}
+.bgtext h1{
+    font-size: 70px;
+
+}
+span{
+    color: #FF3E41;
+}
+.solution{
+    font-size: 70px;
+}
+.docme a{
+    background-color: #FF3E41;
+    border-radius: 0;
+    padding: 12px;
+}
+.docme2 a {
+    background-color: #51CFED;
+    border-radius: 0;
+    padding: 12px;
+}
+.imgg1 img{
+    width: 728.4px;
+    height: 548.8px;
+}
+.about{
+    color: #51CFED;
+}
+.docme3 a{
+    background-color: #FF3E41;
+    border-radius: 0;
+    padding: 12px;
+}
+.about h5{
+    color: #FF3E41;
+}
+.cart{
+    background-color: #FF3E41;
+    
+}
+.cart2{
+    background-color: #198754;
+    margin-top: 50px;
+   
+}
+.cart3{
+    background-color: #51CFED;
+    /* padding-top: 29px; */
+}
+.bg1{
+    background-color: rgb(200, 200, 200);
+}
+.img2{
+    width: 735.6px;
+    height: 512.2px;
+}
+.color h5 {
+    color: #FF3E41;
+}
+.color li {
+    margin-top: 15px;
+}
